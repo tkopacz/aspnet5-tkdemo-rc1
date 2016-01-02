@@ -1,0 +1,11 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<Entity1>
+
+@{
+// ViewBag.Title = "Home Page";
+}
+@foreach (var item in Model) {
+    <p>@item.Id - @item.Title</p>
+}

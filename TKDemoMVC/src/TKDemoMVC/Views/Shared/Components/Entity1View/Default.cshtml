@@ -1,0 +1,7 @@
+﻿@model IEnumerable<Entity1>
+<div>
+    <h3>@ViewBag.Title</h3>
+    @foreach (var item in Model) {
+        <p>@item.Id - @item.Title</p>
+    }
+</div>

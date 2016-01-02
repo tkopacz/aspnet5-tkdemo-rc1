@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D2CF8C81-3E3A-44A1-82D9-619966BD61C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60E51C06-072F-46F9-9800-00B7B4C561B8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TKDemoMVC", "src\TKDemoMVC\TKDemoMVC.xproj", "{E944C946-5531-4E44-A280-B42A30130E5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E944C946-5531-4E44-A280-B42A30130E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E944C946-5531-4E44-A280-B42A30130E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E944C946-5531-4E44-A280-B42A30130E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E944C946-5531-4E44-A280-B42A30130E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E944C946-5531-4E44-A280-B42A30130E5C} = {D2CF8C81-3E3A-44A1-82D9-619966BD61C0}
+	EndGlobalSection
+EndGlobal

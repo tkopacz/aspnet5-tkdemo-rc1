@@ -1,0 +1,16 @@
+﻿@using Microsoft.Extensions.OptionsModel
+@inject IOptions<AppSettingsConfig> AppSettings
+@{
+    ViewBag.Title = "Home Page";
+}
+<br />
+<br />
+<br />
+<br />
+<h1>@AppSettings.Value.Value1</h1>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    // ViewBag.Title = "Home Page";
+}

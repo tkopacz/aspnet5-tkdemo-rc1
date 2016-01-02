@@ -1,0 +1,12 @@
+{
+  "AppSettings": {
+    "Value1": 123
+  },
+  "Data": {
+    "Value1": 123,
+    "Value2": "ABC",
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-TKDemoMVC-f3bf8f7e-c075-4942-8da5-1e6895950fcd;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
